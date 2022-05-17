@@ -7,7 +7,8 @@ push的时候是main分支，不是天杀的master，干
 ### 第 2 个命令：git init
 在命令行窗口的光标处，输入git init命令，初始化 Git 仓库：
 ### 第 3 个命令：git add
-在命令行窗口的光标处，输入git add hit.txt命令，将hit.txt文件添加到 Git 仓库：
+git add xx 命令可以将xx文件添加到暂存区，如果有很多改动可以通过 git add -A . 来一次添加所有改变的文件。
++ 注意 -A 选项后面还有一个句点。 git add -A 表示添加所有内容， git add . 表示添加新文件和编辑过的文件不包括删除的文件; git add -u 表示添加编辑或者删除的文件，不包括新添加的文件
 ### 第 4 个命令：git commit
 在命令行窗口的光标处，输入git commit -m "text commit"命令，将hit.txt文件提交到 Git 仓库：
 ### 第 5 个命令：git log
