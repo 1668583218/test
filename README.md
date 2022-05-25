@@ -67,7 +67,42 @@ git add xx 命令可以将xx文件添加到暂存区，如果有很多改动可�
 + 然后，刷新 GitHub 中mybatis-tutorial仓库：
 + ![image](https://user-images.githubusercontent.com/57259494/164390724-ebe3a9bc-5f2b-4c91-9726-c5f01265d73e.png)
 
+## 四、在Pycharm工具中配置集成Git和GitHub
+### 1.集成Git。
+- 打开Pycharm, 点击File-->Settins-->Version Control-->Git 然后在 Path to Git executable中选择本地的git.exe路径。如下图：
+- ![img.png](imag/img.png)
+### 2.集成GitHub。
+- 打开Pycharm, 点击File-->Settins-->Version Control-->GitHub然后输入正确的Github用户名和密码，如下图：
+- ![img_1.png](imag/img_1.png)
 
+## 五、推送项目到版本库
+- VCS-->Import into Version Control-->Share Project on GitHub
+
+## 六、从版本库克隆项目 
+- 把Git版本库中的项目代码克隆到当前Pycharm的工作路径中。
+- 点击Pycharm导航栏中的VCS -> Get from Version Control -> Git 
+- 1.从本地Git版本库克隆项目
+- ![img.png](img.png)
+- 2.从GitHub克隆项目（这种很慢，如果文件较多较大很容易失败！）
+- ![img_1.png](img_1.png)
+
+## 七、通过文件名颜色识别文件状态。
+- 红色， 表示在工作区
+- 绿色， 表示在暂存区
+- 蓝色， 表示文件有修改，位于暂存区
+- 文件名无颜色，表示位于本地仓库区或已经提交到远程仓库区
+
+## 八、如何向Git和GitHub仓库中添加文件？
+- 1.在pycharm中任意新建一个文件。默认是红色，但是会弹出一个对话框（你想要将以下文件添加到Git吗?）,点击Add按钮后，文件颜色变绿色，表示已经进入暂存区。如下图。
+- ![img_2.png](imag/img_2.png)
+- 2.点击右上角的√提交到版本库。
+- ![img_3.png](imag/img_3.png)
+- 3.提交到本地Git版本库和GitHub
+- ![img_4.png](imag/img_4.png)
+
+## 九、创建分支
+- 在Pycharm右下角，我们可以看到Git:master，表示目前在主分支。可以点击Git:master新建分支，master主分支上保持最稳定代码的版本，然后每个小组一个分支,所以我要审查过每个分支上的代码再合并,而不是立刻将他们分支上的马上合并到master上面,一来保证了代码的质量,而来在小组方面可以更快发现bug,然后通知修改如下图所示：
+- ![img_5.png](imag/img_5.png)
 
 
 
