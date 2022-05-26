@@ -108,7 +108,7 @@ git add xx 命令可以将xx文件添加到暂存区，如果有很多改动可�
 - ![image](https://user-images.githubusercontent.com/57259494/170427829-f0fd0f5c-0882-4d1e-82e6-33b5bbad6136.png)
 - 选择需要合并的分支，点击将“xx”合并到“main”中即可
 - ![image](https://user-images.githubusercontent.com/57259494/170428014-a71b24b1-c9d7-473f-bb70-c2f0520bcde8.png)
-当然，最后再通过main主分支推送到github上
+- 当然，最后再通过main主分支推送到github上
 
 
 
