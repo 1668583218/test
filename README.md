@@ -1,4 +1,4 @@
-# test
+git、github、Pychram之间的操作
 ## 重点
 push的时候是main分支，不是天杀的master，干
 ## 一.Git 其常用命令介绍
