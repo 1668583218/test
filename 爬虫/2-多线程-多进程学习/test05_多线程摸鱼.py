@@ -1,7 +1,6 @@
 # encoding = utf-8
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
 
 
 #
