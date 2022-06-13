@@ -79,8 +79,6 @@ def get_distance(bg_Image, fullbg_Image):
                return i
 
 
-
-
 def get_path(distance):
         result = []
         current = 0
@@ -186,8 +184,6 @@ def recognize_code(driver):
     print('得到距离：%s' % str(distance))
 
     start_drag(driver, distance)
-
-
 
 
 if __name__ == '__main__':
