@@ -33,6 +33,8 @@ class DouBanSpider(scrapy.Spider):
             #     # 标题
             #     'content': content_div.xpath('.//a/span[1]/text()').getall(),
             # }
+
+        # 这个方式是通过 Scrapy response 自带的 follow 进行下一个页面的爬取
         next_page = response.xpath('//span[@class="next"]/a').attrib['href']
         if next_page is not None:
             yield response.follow(next_page, callback=self.parse)
